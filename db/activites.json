@@ -1,0 +1,128 @@
+{
+  "bowling": {
+    "d": "Quoi de plus satisfaisant que de voir tomber les quilles après un strike ? 19 pistes et leur espace conso.",
+    "f": [
+      "Dès 3 ans",
+      "Max 6 joueurs / piste",
+      "19 pistes",
+      "1 301 m²"
+    ]
+  },
+  "kart": {
+    "d": "Au menu : vitesse, contrôle, virages et sensations fortes. Circuit de 2 391 m² : sections au sol en épingles, spirale surélevée en forme de « 9 » qui passe en pont au-dessus de la piste, puis longue descente vers la ligne droite.",
+    "f": [
+      "Dès 7 ans",
+      "1,30 m mini",
+      "8 min / session",
+      "Kart bi-place"
+    ]
+  },
+  "laser": {
+    "d": "Une salle plongée dans l'obscurité, avec des lasers et des adversaires ! Labyrinthe de 284 m².",
+    "f": [
+      "Dès 7 ans",
+      "Max 24 joueurs",
+      "20 min (15 + 5 brief)"
+    ]
+  },
+  "jump": {
+    "d": "Une grande salle de trampolines pour sauter, escalader et se dégourdir les jambes.",
+    "f": [
+      "Dès 6 ans",
+      "Accès illimité"
+    ]
+  },
+  "kid": {
+    "d": "Grande structure avec toboggan, pont de singe et plein d'autres surprises. Le Baby Park est intégré à la zone.",
+    "f": [
+      "3 à 12 ans",
+      "Accès illimité",
+      "280 m²"
+    ]
+  },
+  "baby": {
+    "d": "Petite structure d'éveil au jeu, dans la zone du Kid Park. Gratuit pour l'accompagnant.",
+    "f": [
+      "0 à 3 ans",
+      "Accès illimité",
+      "Accompagnant gratuit"
+    ]
+  },
+  "karaoke": {
+    "d": "Que tu sois plutôt Céline ou Aya, on a la musique qu'il te faut pour chanter à tue-tête.",
+    "f": [
+      "Dès 7 ans",
+      "Max 8 joueurs / salle",
+      "Tarif à l'heure"
+    ]
+  },
+  "vr": {
+    "d": "Vivez une toute nouvelle expérience immersive avec nos différents thèmes !",
+    "f": [
+      "Dès 10 ans",
+      "2 à 6 joueurs",
+      "20 min"
+    ]
+  },
+  "quiz": {
+    "d": "Des buzzers, des modes de jeu, tes potes et une bonne dose de rigolade !",
+    "f": [
+      "Dès 8 ans",
+      "4 à 12 joueurs",
+      "1 h"
+    ]
+  },
+  "pixel": {
+    "d": "Prêts à affronter les dalles interactives ? Rapidité et réflexes seront vos atouts !",
+    "f": [
+      "Dès 6 ans",
+      "3 à 6 joueurs",
+      "20 min"
+    ]
+  },
+  "billard": {
+    "d": "Profitez de nos billards anglais ! 1 jeton = 1 partie, en vente à l'accueil.",
+    "f": [
+      "Billard anglais",
+      "À la partie"
+    ]
+  },
+  "darts": {
+    "d": "501, 301 et différents modes de jeu : venez tester nos superbes cibles !",
+    "f": [
+      "Dès 7 ans",
+      "Bananacoins"
+    ]
+  },
+  "arcades": {
+    "d": "Chargez votre carte sans contact et jouez aux jeux d'arcade : îlots de bornes dans l'agora, Sharp Shooter (basket) à l'angle du bowling, air hockey puis portique « Kids Zone » et bornes le long du karting, palets et bornes dans l'espace kids.",
+    "f": [
+      "Carte Bananacoins",
+      "Air hockey",
+      "Sharp Shooter",
+      "Kids Zone"
+    ]
+  },
+  "anniv": {
+    "d": "Formule clé en main : table privatisée (gâteau, boissons, bonbons, 1 cadeau) et 1 activité au choix : Kid Park, Jump Park, Laser Game ou Bowling.",
+    "f": [
+      "Dès 6 ans",
+      "73 m²",
+      "Activités à réserver à l'accueil"
+    ]
+  },
+  "snack": {
+    "d": "Comptoir Accueil Kids + snack (façade manette rétro), tables et chaises rouges, canapés gris, tables hautes, air hockey et bornes. Espace conso parents (155 m²) entre Jump Park, Kid Park et Laser Game.",
+    "f": [
+      "Carte sur place"
+    ]
+  },
+  "resto": {
+    "d": "Restaurant sur estrade bois avec banquettes, grand écran entre deux ventilateurs indus sur bardage tôle, coin jeux de société (tables à plateau imprimé, étagères « jeux »), et bar central Monky. Bar des sports avec écrans géants (foot, rugby, tennis, F1…). Service 12 h – 14 h 30 et 19 h – 22 h 30, 7j/7 ; dimanche soir uniquement pendant les vacances scolaires.",
+    "f": [
+      "Ouvert 7j/7",
+      "Écrans géants",
+      "Happy Monky jeudi 18 h – 21 h"
+    ]
+  }
+}
