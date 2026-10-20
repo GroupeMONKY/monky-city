@@ -1,0 +1,70 @@
+{
+  "jeux": {
+    "kart": 358,
+    "bow": 140,
+    "las": 178,
+    "quiz": 258,
+    "bil": 100,
+    "dar": 40,
+    "ah": 40,
+    "bk": 40,
+    "px": 198
+  },
+  "arcade": {
+    "blocks": 40,
+    "space": 40,
+    "kong": 40,
+    "pac": 40,
+    "poing": 40,
+    "brik": 40,
+    "rally": 60,
+    "jet": 60,
+    "foot": 60,
+    "jkart": 60,
+    "force": 60
+  },
+  "resto": {
+    "meal": 300,
+    "drink": 150
+  },
+  "bar": {
+    "cocktail": 160,
+    "soda": 60,
+    "beer": 100,
+    "sparkling": 60,
+    "choco": 70,
+    "water": 0
+  },
+  "recharges": [
+    {
+      "eur": 10,
+      "bc": 200
+    },
+    {
+      "eur": 20,
+      "bc": 504
+    },
+    {
+      "eur": 30,
+      "bc": 768
+    },
+    {
+      "eur": 50,
+      "bc": 1344
+    },
+    {
+      "eur": 75,
+      "bc": 2036
+    },
+    {
+      "eur": 100,
+      "bc": 2720
+    }
+  ],
+  "rate": 20,
+  "pass": {
+    "adulte": 29.9,
+    "enfant": 24.9,
+    "famille": 89.9
+  }
+}
