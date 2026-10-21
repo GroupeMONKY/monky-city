@@ -11,6 +11,13 @@
       "msg": "Carte PDF restaurant/bar publiée (mise en page brouillée). Prix cocktail 8 €, soda 3 €, eau gazeuse 3 €, chocolat 3,50 € cohérents avec la base ; bière, plat, bowling (« 20 € ou 15 € ») ambigus. Aucune écriture, statut partiel.",
       "source": "https://monky.fr/wp-content/uploads/2026/10/Menu-niort-AH-26-web.pdf",
       "type": "info"
+    },
+    {
+      "champ": "veille",
+      "date": "2026-10-21T14:51:00Z",
+      "msg": "Routine unique (veille + synchro + HTML) : monky.fr injoignable depuis l'environnement (WebFetch : getaddrinfo ENOTFOUND, accès réseau refusé). Aucune page lue, aucune écriture de prix ni de texte.",
+      "source": "https://monky.fr/niort/",
+      "type": "erreur"
     }
   ]
 }
