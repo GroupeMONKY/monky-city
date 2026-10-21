@@ -8,7 +8,7 @@ MISSION (tâche planifiée, sans humain présent : ne pose aucune question ; fin
 
 Exporte la base de l'artefact Monky City dans le dossier db/ du dépôt GroupeMONKY/monky-city et pousse sur main seulement s'il y a un changement.
 
-1. Dépôt : place-toi dans le clone de GroupeMONKY/monky-city (sinon `git clone https://github.com/GroupeMONKY/monky-city`). `git checkout main && git pull origin main`. Lis CLAUDE.md.
+1. Dépôt : appelle d'abord l'outil add_repo (serveur claude-code-remote, charge-le avec ToolSearch si besoin) avec owner "GroupeMONKY", repo "monky-city", access "push", puis clone le dépôt avec la commande qu'il indique (sinon `git clone https://github.com/GroupeMONKY/monky-city`). `git checkout main && git pull origin main`. Lis CLAUDE.md.
 2. Export : outil ArtifactData, action "list", url https://claude.ai/artifact/Wa2Fyv4r51bmUjqKoweSGx, collection "config", query.limit 100, out_dir = un dossier temporaire neuf (ex. le scratchpad). Si l'outil échoue ou ne renvoie aucun document : n'écris rien, arrête-toi et signale l'erreur.
 3. `node tools/sync-db.js <out_dir>/config` : copie dans db/ uniquement les documents dont le contenu a changé (comparaison JSON, ordre des clés ignoré). Ne modifie aucun autre fichier, ne supprime rien.
 4. Si `git status --porcelain db/` est vide : « Base inchangée », fin (aucun commit).
