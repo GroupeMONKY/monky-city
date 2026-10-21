@@ -1,5 +1,7 @@
 # Consigne de la veille monky.fr/niort
 
+> Intégrée à `docs/routine-quotidienne.md` (routine unique veille + synchro + HTML, 7 h 30). Tâche « Veille monky.fr/niort → base Monky City » désactivée.
+
 Tâche planifiée Claude « Veille monky.fr/niort → base Monky City », cron `CRON_TZ=Europe/Paris 52 6 * * *`. Texte exécuté à chaque passage :
 
 ---

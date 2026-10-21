@@ -1,5 +1,7 @@
 # Consigne de la synchro quotidienne base → db/
 
+> Remplacée par `docs/routine-quotidienne.md` (routine unique veille + synchro + HTML). Tâche désactivée.
+
 Tâche planifiée Claude « Synchro base Monky City → db/ », cron `CRON_TZ=Europe/Paris 30 7 * * *` (nouvelle session à chaque passage). Texte exécuté :
 
 ---

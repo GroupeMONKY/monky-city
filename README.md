@@ -27,7 +27,7 @@ Conversion : `Bananacoins = euros × taux` (taux 20 : bowling 7 € = 140 BC, ka
 
 ## Veille de monky.fr/niort
 
-Tâche planifiée Claude, chaque jour vers 7 h (Europe/Paris), puis le lundi une fois le site ouvert. Le site est « Ouverture prochaine » (nov. 2026) : tant qu'il ne publie rien, la base n'est pas modifiée. Voir `docs/veille-prompt.md` pour les règles :
+Routine Claude, chaque jour à 7 h 30 (Europe/Paris), puis le lundi une fois le site ouvert ; voir `docs/routine-quotidienne.md`. Le site est « Ouverture prochaine » (nov. 2026) : tant qu'il ne publie rien, la base n'est pas modifiée. Voir `docs/veille-prompt.md` pour les règles :
 
 1. n'extraire que ce qui est écrit explicitement sur le site ;
 2. appliquer automatiquement les valeurs claires quand la base n'a pas été retouchée à la main ;
@@ -39,7 +39,8 @@ Tâche planifiée Claude, chaque jour vers 7 h (Europe/Paris), puis le lundi une
 - `index.html` : le jeu (v2.1)
 - `db/*.json` : état initial des documents de la base
 - `docs/veille-prompt.md` : consigne de la tâche planifiée de veille
-- `docs/synchro-prompt.md` : consigne de la synchro quotidienne base → `db/` (7 h 30)
+- `docs/routine-quotidienne.md` : routine quotidienne (7 h 30) : veille du site → base, base → `db/`, valeurs en dur du HTML
+- `docs/synchro-prompt.md` : ancienne consigne de synchro (remplacée)
 - `tests/smoke.js` : test de fumée (`node tests/smoke.js`)
 - `tools/sync-db.js` : copie l’export de la base dans `db/` si changement
 
