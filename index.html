@@ -17,6 +17,24 @@ setTexts:_c=>{if(!_c||"object"!=typeof _c)return;_s(_c.pass)&&(_pt=_c.pass.trim(
 <script>
 (async()=>{
 "use strict";
+if(window.claude)return;
+const API=window.__mc;if(!API||!API.setPrices)return;
+const get=async f=>{try{const r=await fetch("db/"+f+".json",{cache:"no-cache"});return r.ok?await r.json():null}catch(e){return null}};
+const okS=(v,n)=>typeof v==="string"&&v.trim().length>0&&v.length<n;
+const applyActs=d=>{if(!d||typeof d!=="object")return;
+ for(const z of MODEL.ZONES){const a=d[z.id];if(!a||typeof a!=="object")continue;
+  if(okS(a.d,1500))z.d=a.d.trim();
+  if(Array.isArray(a.f)){const f=a.f.filter(x=>okS(x,200)).map(x=>x.trim()).slice(0,8);if(f.length)z.f=f}}};
+const [prix,textes,acts]=await Promise.all(["prix","textes","activites"].map(get));
+try{if(prix)API.setPrices(prix)}catch(e){}
+try{if(textes)API.setTexts(textes)}catch(e){}
+try{if(acts)applyActs(acts)}catch(e){}
+window.__mcDbLoaded=!!(prix||textes||acts);
+})();
+</script>
+<script>
+(async()=>{
+"use strict";
 const $=id=>document.getElementById(id);
 if(!window.claude||!window.claude.use)return;
 let db=null,user=null;

@@ -6,7 +6,7 @@ Jeu 2D en vue de dessus du parc **Monky Niort** (activités, arcade, quiz, Banan
 
 - **Version vivante (recommandée)** : l'artefact claude.ai, https://claude.ai/artifact/Wa2Fyv4r51bmUjqKoweSGx (privé, accessible avec votre compte).
   C'est la seule version reliée à la base de données (prix modifiables, veille du site).
-- **Copie GitHub** (`index.html`) : à ouvrir en local (double-clic) ou via un hébergement statique. Hors claude.ai, la base de données est absente : le jeu utilise alors les prix et textes écrits dans le code (valeurs de la v2.1). Le bouton « € » n'y apparaît pas.
+- **Copie GitHub** (`index.html`) : à ouvrir en local (double-clic) ou via un hébergement statique. Hors claude.ai, le jeu lit `db/prix.json`, `db/textes.json` et `db/activites.json` (copie de la base synchronisée chaque matin) ; à défaut (ouverture en double-clic), il garde les valeurs écrites dans le code. Le bouton « € » n'y apparaît pas.
 
 ## Prix et textes modifiables sans republier (v2)
 
@@ -38,7 +38,10 @@ Tâche planifiée Claude, chaque jour vers 7 h (Europe/Paris), puis le lundi une
 
 - `index.html` : le jeu (v2.1)
 - `db/*.json` : état initial des documents de la base
-- `docs/veille-prompt.md` : consigne de la tâche planifiée
+- `docs/veille-prompt.md` : consigne de la tâche planifiée de veille
+- `docs/synchro-prompt.md` : consigne de la synchro quotidienne base → `db/` (7 h 30)
+- `tests/smoke.js` : test de fumée (`node tests/smoke.js`)
+- `tools/sync-db.js` : copie l’export de la base dans `db/` si changement
 
 ## Limites connues
 
