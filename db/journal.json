@@ -2,8 +2,15 @@
   "entries": [
     {
       "date": "2026-10-20T15:06:26Z",
-      "type": "info",
-      "msg": "Veille monky.fr/niort créée. Site en construction, aucune donnée à comparer. Base inchangée."
+      "msg": "Veille monky.fr/niort créée. Site en construction, aucune donnée à comparer. Base inchangée.",
+      "type": "info"
+    },
+    {
+      "champ": "carte_pdf",
+      "date": "2026-10-20T15:09:35Z",
+      "msg": "Carte PDF restaurant/bar publiée (mise en page brouillée). Prix cocktail 8 €, soda 3 €, eau gazeuse 3 €, chocolat 3,50 € cohérents avec la base ; bière, plat, bowling (« 20 € ou 15 € ») ambigus. Aucune écriture, statut partiel.",
+      "source": "https://monky.fr/wp-content/uploads/2026/10/Menu-niort-AH-26-web.pdf",
+      "type": "info"
     }
   ]
 }
