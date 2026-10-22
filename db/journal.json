@@ -18,6 +18,13 @@
       "msg": "Routine unique (veille + synchro + HTML) : monky.fr injoignable depuis l'environnement (WebFetch : getaddrinfo ENOTFOUND, accès réseau refusé). Aucune page lue, aucune écriture de prix ni de texte.",
       "source": "https://monky.fr/niort/",
       "type": "erreur"
+    },
+    {
+      "champ": "veille",
+      "date": "2026-10-22T05:33:00Z",
+      "msg": "monky.fr toujours injoignable (getaddrinfo ENOTFOUND, domaine non autorisé dans l'accès réseau de l'environnement). Aucune page lue, base inchangée.",
+      "source": "https://monky.fr/niort/",
+      "type": "erreur"
     }
   ]
 }
